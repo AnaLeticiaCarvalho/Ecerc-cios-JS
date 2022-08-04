@@ -1,12 +1,13 @@
-let olderPersonName = prompt("Digite o nome da pessoa mais velha")
-let olderPersonAge = prompt("Digite a idade da pessoa mais velha")
-let youngerPersonName = prompt ("Digite o nome da pessoa mais nova")
-let yougerPersonAge = prompt("Digite a idade da pessoa mais nova")
+let spaceship = "Elemental"
+let velocity = 20
 
-let ageDiference = olderPersonAge - yougerPersonAge
+console.log(spaceship.length == 9 && velocity == 15)
+//V and V = true
 
-alert(
-    "Pessoa mais velha: " + olderPersonName + "\nIdade: " + olderPersonAge +
-    "\n\nPessoa mais nova: " + yougerPersonAge + "\nIdade: " + yougerPersonAge +
-    "\n\nDiferença de idade: " + ageDiference
-)
+console.log(velocity > 10 && velocity > 19)
+// V and F = False
+
+console.log(velocity < 17 && spaceship == "Elemental")
+// F and V = False
+
+console.log(spaceship == "Golias" && velocity > 21)
